@@ -16,5 +16,10 @@ program1b: ExtractSubList
 program1b: DeleteNthElement
 4_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/ListInterface/DeleteNthElement-Output.png)
 
-program1b: IterateFromSecondElement
-5_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/ListInterface/IterateFromSecondElement-Output.png)
+program1c: IterateFromSecondElement
+1_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/ListInterface/IterateFromSecondElement-Output.png)
+
+program1c: ReverseLinkedListIteration
+2_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/ListInterface/ReverseLinkedListIteration-Output.png)
+
+
