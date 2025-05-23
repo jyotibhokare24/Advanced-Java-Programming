@@ -41,7 +41,7 @@ program3a: StringHandlingDemo
 1_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/StringHandlingDemo-output.png)
 
 program3b: NullOrEmptyChecker
-1_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/NullOrEmptyChecker-output.png)
+1_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/NullOrEmptyChecker-output.png)
 
 program3b: SubstringCounte
 2_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/SubstringCounter-output.png)
@@ -59,7 +59,7 @@ program3c : CapitalizeWords
 1_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/CapitalizeWords-output.png)
 
 program3c : StringTruncator
-2_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/StringTruncator-output.png)
+2_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/StringTruncator-output.png)
 
 program3c : NumericChecker
 3_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Stringoperations3a/NumericChecker-output.png)
