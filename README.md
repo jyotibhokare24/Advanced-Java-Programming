@@ -77,7 +77,7 @@ program4b : CountryButtonDemo
 2_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Swing4/CountryButtonDemo-output.png)
 
 program4c : ImageButtonDemo
-3_output -> (hub.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Swing4/ImageButtonDemo-output.png)
+3_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Swing4/ImageButtonDemo-output.png)
 
 program5a : CountrySelector
 1_output -> (https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Swing5/CountrySelector-output.png)
