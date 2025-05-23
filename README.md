@@ -90,3 +90,19 @@ program5c : CountryCapitalList-output
 
 program5d : CMYTabbedPane-output
 4_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Swing5/CMYTabbedPane-output.png)
+
+program6a : FactorialCalculator-output-1
+1_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Servletprogram/FactorialCalculator-output-1.png)
+2_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Servletprogram/FactorialCalculator-output-2.png)
+
+program6b : CookieDemo-output
+1_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Servletprogram/CookieDemo-output.png)
+
+program6c : PrimeNumberChecker-output
+1_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/Servletprogram/PrimeNumberChecker-output.png)
+
+program7a : SessionExpiry-output
+1_output -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/JSPprograms7/SessionExpiry-output.png)
+
+program7b : CookieManagement
+1_outpuy -> [Link](https://github.com/jyotibhokare24/Advanced-Java-Programming/blob/main/JSPprograms7/Cookiemanagement-output.png)
