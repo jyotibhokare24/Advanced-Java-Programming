@@ -1,0 +1,38 @@
+/*Build a servlet program to check the given number is prime number or not using HTML with step
+by step procedure.*/
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Prime Number Checker</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 50px; background-color: #e6f7ff; color: #333; }
+    .container { background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 500px; margin: auto; text-align: center; }
+    h2 { color: #0056b3; margin-bottom: 25px; }
+    form { margin-bottom: 25px; }
+    label { display: block; margin-bottom: 10px; font-weight: bold; color: #555; }
+    input[type="number"] { width: calc(80% - 22px); padding: 12px; margin-bottom: 20px; border: 1px solid #a3d9ff; border-radius: 5px; font-size: 16px; transition: border-color 0.3s; }
+    input[type="number"]:focus { border-color: #007bff; outline: none; }
+    input[type="submit"] { background-color: #007bff; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 17px; font-weight: bold; transition: background-color 0.3s ease; }
+    input[type="submit"]:hover { background-color: #0056b3; }
+    .info { font-size: 0.9em; color: #666; margin-top: 30px; border-top: 1px dashed #cceeff; padding-top: 15px; }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2>Prime Number Checker</h2>
+
+        <form action="PrimeServlet" method="get">
+            <label for="number">Enter a non-negative integer:</label>
+            <input type="number" id="number" name="number" min="0" required>
+            <input type="submit" value="Check Prime">
+        </form>
+
+        <div class="info">
+            <p>A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.</p>
+        </div>
+    </div>
+</body>
+</html>
