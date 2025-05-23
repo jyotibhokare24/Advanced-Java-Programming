@@ -1,0 +1,28 @@
+/*Build a servlet program to find the factorial of a number using HTML with step by step
+procedure.*/
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Factorial Calculator</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 50px; background-color: #f4f4f4; color: #333; }
+    form { background-color: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 450px; margin: auto; }
+    h2 { text-align: center; color: #0056b3; margin-bottom: 25px; }
+    label { display: block; margin-bottom: 10px; font-weight: bold; color: #555; }
+    input[type="number"] { width: calc(100% - 22px); padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; transition: border-color 0.3s; }
+    input[type="number"]:focus { border-color: #007bff; outline: none; }
+    input[type="submit"] { background-color: #28a745; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 17px; font-weight: bold; transition: background-color 0.3s ease; display: block; width: 100%; }
+    input[type="submit"]:hover { background-color: #218838; }
+</style>
+</head>
+<body>
+    <h2>Factorial Calculator</h2>
+    <form action="FactorialServlet" method="get">
+        <label for="number">Enter a non-negative integer:</label>
+        <input type="number" id="number" name="number" min="0" required>
+        <input type="submit" value="Calculate Factorial">
+    </form>
+</body>
+</html>
