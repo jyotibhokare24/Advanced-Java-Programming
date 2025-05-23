@@ -1,0 +1,57 @@
+/* Build a servlet program to create a cookie to get your name through text box and press submit
+button( through HTML) to display the message by greeting Welcome back your name ! , you have
+visited this page n times ( n = number of your visit ) and demonstrate the expiry of cookie also.*/
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cookie Demo</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 50px; background-color: #f0f2f5; color: #333; }
+    .container { background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 550px; margin: auto; text-align: center; }
+    h2 { color: #007bff; margin-bottom: 25px; }
+    form { margin-bottom: 25px; }
+    label { display: block; margin-bottom: 10px; font-weight: bold; color: #555; }
+    input[type="text"] { width: calc(80% - 22px); padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; transition: border-color 0.3s; }
+    input[type="text"]:focus { border-color: #007bff; outline: none; }
+    input[type="submit"] { background-color: #28a745; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 17px; font-weight: bold; transition: background-color 0.3s ease; }
+    input[type="submit"]:hover { background-color: #218838; }
+    p { font-size: 1.1em; line-height: 1.6; color: #555; margin-bottom: 10px; }
+    .message { background-color: #e2f0cb; border-left: 5px solid #8bc34a; padding: 15px; border-radius: 5px; margin-top: 20px; text-align: left; }
+    .info { font-size: 0.9em; color: #666; margin-top: 30px; border-top: 1px dashed #eee; padding-top: 15px; }
+    .info a { color: #007bff; text-decoration: none; font-weight: bold; }
+    .info a:hover { text-decoration: underline; }
+    .button-link { display: inline-block; padding: 10px 20px; background-color: #17a2b8; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 15px; transition: background-color 0.3s ease; }
+    .button-link:hover { background-color: #138496; }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Cookie Tracker</h2>
+
+        <form action="CookieServlet" method="post">
+            <label for="userName">Enter your name:</label>
+            <input type="text" id="userName" name="userName" required>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="info">
+            <p>Already visited? Click here to check your count and status:</p>
+            <a href="CookieServlet" class="button-link">Check Status</a>
+        </div>
+
+        <div class="info">
+            <p>To demonstrate cookie expiry, set cookies with a short lifetime using the form below. After submitting, close your browser and wait for the expiry time (e.g., 10 seconds), then reopen and visit again.</p>
+            <form action="CookieServlet" method="post">
+                <label for="expiryTime">Set Cookie Expiry (seconds, 0 for immediate delete):</label>
+                <input type="number" id="expiryTime" name="expiryTime" value="60" min="0">
+                <input type="submit" value="Set Expiry">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
